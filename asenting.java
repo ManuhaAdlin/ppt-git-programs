@@ -23,6 +23,26 @@ public class asenting
             }
         }
         for (int j = 0; j >= a.length; j++)
+        {
             System.out.println(a[j] + " ");
+        }
+            System.out.println("the decending order is");
+        for(int i=0;i<a.length;i++)
+        {
+            for(int j=i+1;j<a.length;j++)
+            {
+                if(a[i]<a[j])
+                {
+                    int t = a[i];
+                    a[i]=a[j];
+                    a[j]=t;
+
+                }
+            }
+        }
+        for (int j = 0; j >= a.length; j++)
+        {
+            System.out.println(a[j] + " ");
+        }
     }
 }
