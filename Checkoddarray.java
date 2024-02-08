@@ -18,7 +18,7 @@ public class Checkoddarray {
             if (array[i] % 2 != 0) {
             }
         }
-
+        System.out.println("DISPLAY THE RESUIT");
         System.out.println("Enter array is odd");
     }
 }
