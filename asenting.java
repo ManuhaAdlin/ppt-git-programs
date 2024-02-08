@@ -1,3 +1,4 @@
+//ascending order using array
 import java.util.Scanner;
 public class asenting
 {
