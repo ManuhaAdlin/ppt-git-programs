@@ -5,6 +5,7 @@ public class asenting
     public static void main(String args[])
     {
         int a[] = new int[5];
+        System.out.println("ASCENDING ORDER");
         Scanner s1 = new Scanner(System.in);
         System.out.println("enter " + a.length + " elements");
         for (int i = 0; i < a.length; i++)
